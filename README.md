@@ -30,5 +30,7 @@ Trello board is used for planning and tracking of various tasks. The Trello boar
 Below screen prints shows state of tasks in various stages of the project.
 
 1 **Trello Image  (03-07-2020)**
-![Trello Image](docs/trello/Trello1.png)
+![Trello Image 1](docs/trello/Trello1.png)
+2 
+![Trello Image 2](docs/trello/Trello2.png)
 
