@@ -1,9 +1,13 @@
 Project Name
 
-**Table Contents**
+**Table Of Contents**
 - [1. Description of your website](#1-description-of-your-website)
   - [1.1. Purpose](#11-purpose)
   - [1.2. Functionality / features](#12-functionality--features)
+    - [1.2.1. User Management](#121-user-management)
+    - [1.2.2. Profile Management](#122-profile-management)
+    - [1.2.3. Order Management](#123-order-management)
+    - [1.2.4. Menu Management](#124-menu-management)
   - [1.3. Target audience](#13-target-audience)
   - [1.4. Tech stack	GENERAL](#14-tech-stackgeneral)
 - [2. Dataflow Diagram](#2-dataflow-diagram)
@@ -35,6 +39,47 @@ We are introducing the fourth way of ordering food i.e ordering home-cooked food
 3. Pick up your meal and enjoy fresh, homemade food, and share your experience with us!
 
 ## 1.2. Functionality / features
+The app provides following functionality and features
+
+### 1.2.1. User Management
+  
+  User management functionality provides ability to authenticate and authorize various users of the app. The functionality is implemented through following features
+
+  - Register
+  - Login
+  - Logout
+### 1.2.2. Profile Management
+  
+  Profile management functionality provides ability to the customers of the store to share contact and other related details in order to communicate with the store admins if required. It also provides store admins to publish the store address, and contact details.
+
+  The functionality is implemented through following features
+
+  - Edit profile
+  - View customer details
+  - Edit store details
+  - View Store details
+### 1.2.3. Order Management
+
+  Order Management functionality provides customers to make, edit and cancel the orders as well as view order details and history. The functionality can be used by store admins to view orders for the day and the customers who made the orders.
+
+  The functionality is implemented through following features
+
+  - Create Order
+  - Edit Order
+  - Cancel Order
+  - View Orders Made
+  - View Orders Received
+### 1.2.4. Menu Management
+
+  Menu management functionality provides ablity to customers to view the menu of the day. It can be used by Store admins to create the menu of the day.
+
+  The functionality is implemented through follow features
+
+  - Create menu of the day
+  - Edit menu of the day
+  - Delete menu of the day
+  - View menu of the day
+
 ## 1.3. Target audience
 We will generally have three targeted audience group:
 
@@ -51,11 +96,6 @@ Life of parents with young kids can be very busy. With endless things going arou
 This group of people are really busy with their work and career. After a long day at work, they don’t like to think about cooking food. So they are more likely to order food from our app, as it gives a healthy option to ordering food from restaurants or takeaways.
 
 Apart from this group, anyone who is passionate about food and would like to taste authentic  home-cooked meal would be our target customer.
-
-
-
-
-    
 
 ## 1.4. Tech stack	GENERAL
 # 2. Dataflow Diagram
