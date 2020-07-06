@@ -36,6 +36,27 @@ We are introducing the fourth way of ordering food i.e ordering home-cooked food
 
 ## 1.2. Functionality / features
 ## 1.3. Target audience
+We will generally have three targeted audience group:
+
+**College Students and Young Adults:**
+
+This group of people live very fast paced lives. They are busy with their studies, social circles or might be starting a new career. So cooking food at home can be really difficult for them. They will also be missing their home cooked meal when they are living away from home. Our home cooked meal will provide them a taste of their home.
+
+**Parents**
+
+Life of parents with young kids can be very busy. With endless things going around their life, cooking food at the end of the day can be very overwhelming. Buying our home cooked meal will not only give them enough time to spend with their childrens but also, they don’t have to feel guilty of feeding their kids some unhealthy food from restaurants or takeaways.
+
+**Working Professionals**
+
+This group of people are really busy with their work and career. After a long day at work, they don’t like to think about cooking food. So they are more likely to order food from our app, as it gives a healthy option to ordering food from restaurants or takeaways.
+
+Apart from this group, anyone who is passionate about food and would like to taste authentic  home-cooked meal would be our target customer.
+
+
+
+
+    
+
 ## 1.4. Tech stack	GENERAL
 # 2. Dataflow Diagram
 # 3. Application Architecture Diagram
