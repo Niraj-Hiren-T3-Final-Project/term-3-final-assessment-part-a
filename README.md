@@ -101,6 +101,35 @@ Apart from this group, anyone who is passionate about food and would like to tas
 # 2. Dataflow Diagram
 # 3. Application Architecture Diagram
 # 4. User Stories
+There are two main users that will interact with our app. They are the store owner who will be selling the food and the customers who will be buying the food through the app. So the user stories are created thinking about how they would interact with the app and what necessary features and functions are necessary for the smooth operation of the app.
+
+**Store Admin User Stories**
+1. As a store admin, I want to register my store, so that I can sell the food through the app.
+2. As a store admin, I want to login to my account, so that I can update my profile, upload images of my food, create a menu of the day, check the quantity ordered for the day or delete the items.
+3. As a store admin, I want to logout from my account, so that no one can have access to my account.
+4. As a store admin, I want to create a menu of the day, so that customers can see what foods are available to order on that particular day.
+5. As a store admin, I want to upload images of my food, so that my customers can see images of food that they would like to order.
+6. As a store admin, I want to check what order has come through for the day, so that I will know in advance what food needs to be cooked and to what quantity.
+7. As a store admin, I want to edit the menu of the day, so that I can make necessary changes in the menu.
+8. As a store admin, I want to delete the menu of the day, so that I can remove anything that I don’t want to be seen on the website.
+9. As a store admin, I want to mark all the orders that have been picked by the customer, so that  no customer will falsely claim the order, after the order has already been picked.
+10. As a store admin, I want to edit my profile, so that I can make changes to my details if anything changes in the future.
+11. As  a store admin, I want to see my customer details, so that I can confirm their identity when they come to pick up the food.
+
+**Customer User Stories**
+
+1. As a customer, I want to register my account, so that I can use the same username and password everytime I login to my account.
+2. As a customer, I want to login into my account, so that I can create, edit, and delete my order.
+3. As a customer, I want to logout from my account, so that no one can access my account.
+4. As a customer, I want to create order, so that I can order the food through the store.
+5. As a customer, I want to edit orders, so that I can make changes to what I ordered. 
+6. As a customer, I want to cancel my order, so that I don’t have to pay for what I don’t want to order.
+7. As a customer, I want to view the orders that I made, so that I can reconfirm all the details and orders that I made.
+8. As a customer, I want to view my order history, so that I know what foods I have been ordering in the past and how much I have been paying.
+9. As a customer, I want to create my profile page, so that I don’t have to update my details everytime I order my food.
+10. As a customer, I want to get order confirmation, so that I can be sure that order has gone through and in case I don’t receive my order I have proof of purchase.
+
+
 # 5. Wireframes
 # 6. Project Management
 
@@ -112,6 +141,7 @@ Below screen prints shows state of tasks in various stages of the project.
 
 1 **Trello Image  (03-07-2020)**
 ![Trello Image 1](docs/trello/Trello1.png)
+
 2 
 ![Trello Image 2](docs/trello/Trello2.png)
 
