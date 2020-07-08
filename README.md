@@ -98,6 +98,24 @@ This group of people are really busy with their work and career. After a long da
 Apart from this group, anyone who is passionate about food and would like to taste authentic  home-cooked meal would be our target customer.
 
 ## 1.4. Tech stack	GENERAL
+
+- React.js: For rendering and management of front end of the app.
+- JSX: Used in conjunction with React, for describing and structuring UI of the app
+- Node.js: Server side run time.
+- Express: Web server to serve backend api and frontend of the app.
+- MongoDB: Document data storage to persist state of the app for various users.
+- Mongoose: ORM to help communicate with MongoDB through MongoDB drivers.
+- Passport.js: Authentication middleware for Node.js to authenticate various users of the app.
+- SASS: CSS Preprocessor to help keep CSS stylings of the app organized.
+- Bootstrap: Framework to build responsive mobile first UI of the app.
+- HTML5: Markup created by React to structure and represent UI of the app to the browser.
+- CSS: To describe how to style various HTML elements on the screen.
+- JavaScript: Used both at server side and client side the program application logic.
+- Netlify: To host frontend of the app so that it can be accessed by various users of the app over internet.
+- Heroku: To host backend api of the app so that it can be accessed by app over the internet.
+- GitHub: To host source code of the app for collaboration and source management using Git.
+- Git: Used for source code management.
+
 # 2. Dataflow Diagram
 # 3. Application Architecture Diagram
 # 4. User Stories
