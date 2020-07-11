@@ -63,3 +63,7 @@ Below screen prints shows state of tasks in various stages of the project.
 ![Trello Image 6](docs/trello/Trello6.png)
 7
 ![Trello Image 7](docs/trello/Trello7.png)
+8
+![Trello Image 7](docs/trello/Trello8.png)
+9
+![Trello Image 7](docs/trello/Trello7.png)
