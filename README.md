@@ -117,6 +117,23 @@ Apart from this group, anyone who is passionate about food and would like to tas
 - Git: Used for source code management.
 
 # 2. Dataflow Diagram
+![homemade meals dataflow diagram](docs/dfd/homemade-mels-dfd.svg)
+
+Above diagram depicts various processes, external entities, data stores and the flow of information among them.
+
+The System works as follows,
+1. Register
+   Customer entity initiates 1.0 Register Process by providing Userid, Email and Password details. Register process verifies the details and passes on the User details to User store for storage.
+2. Login
+   1. Customer Entity initiates 2.0 Login Process by providing Customer Credentials. Login process retrieves User data from Users store and verifies the credentials and stores Login session into Users store.
+   2. Store admin Entitity initiates 2.0 Login Process by providing Store Admin Credentials. Login process retrieves User data from Users store and verifies the credentials and stores Login session into Users store.
+3. Create Menu Item
+   Store Admin intiates 3.0 Create Menu Item Process by filling in Create Meal form. The process verifies the Authenticated user is Authorized Store Admin and then stores the menu item into Menu Items Data store.
+4. Order Meal
+   Customer entitity initiates Order 4.1 process by providing Order Details. The process checks the user is Authenticated and Verifies the meal availability from Verify Availability process, updates item availability through Update Availability process, stores Customer Order in Orders store and send Order Confirmation to the Customer Entity.
+5. Order Pickup
+   Customer entity initiates Order Pickup by provide Order Id, the process verifies the Order throgh Verifiy Order process, marks the order as picked up in Orders store, and then Customer picks up the meal.
+
 # 3. Application Architecture Diagram
 ![Application Architecture Diagram](docs/architectureDiagram/Architecture%20Diagram.png)
 # 4. User Stories
