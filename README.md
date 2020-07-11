@@ -118,6 +118,7 @@ Apart from this group, anyone who is passionate about food and would like to tas
 
 # 2. Dataflow Diagram
 # 3. Application Architecture Diagram
+![Application Architecture Diagram](docs/architectureDiagram/Architecture%20Diagram.png)
 # 4. User Stories
 There are two main users that will interact with our app. They are the store owner who will be selling the food and the customers who will be buying the food through the app. So the user stories are created thinking about how they would interact with the app and what necessary features and functions are necessary for the smooth operation of the app.
 
