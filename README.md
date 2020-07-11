@@ -170,13 +170,20 @@ There are two main users that will interact with our app. They are the store own
       ![](docs/wireframes/Order_History_customer_view.png)
 2. **Store Admin Views**
    1. **Home**
+      ![](docs/wireframes/Home%20-%20store%20admin%20view%20(logged%20in).png) 
    2. **About us**
+      ![](docs/wireframes/About%20us-%20store%20admin%20view.png)
    3. **Edit About us - form**
+      ![](Edit/../docs/wireframes/Edit%20About%20us-%20store%20admin%20view.png)
    4. **Create/Edit Meal - form**
+      ![](docs/wireframes/Create%20_%20Edit%20Meal%20-%20store%20admin%20view%20.png)
    5. **View Meal Details**
+      ![](docs/wireframes/View%20Meal%20-%20store%20admin%20view%20.png)
    6. **Meals list**
+      ![](docs/wireframes/Meals%20List%20-%20store%20admin%20view.png)
 3. **Common**
    1. **Login**
+      ![](docs/wireframes/Login.png)
 # 6. Project Management
 
 The project will be developed using agile methodology. There are total four sprints planned, each of them being one week in duration. The first sprint is dedicated to inception, planning, and documentation. Remaining three sprints are dedicated to build in that one by one all the planned features of the project will be developed and deployed.
