@@ -209,7 +209,7 @@ There are two main users that will interact with our app. They are the store own
 
 The project will be developed using agile methodology. There are total four sprints planned, each of them being one week in duration. The first sprint is dedicated to inception, planning, and documentation. Remaining three sprints are dedicated to build in that one by one all the planned features of the project will be developed and deployed.
 
-Trello board is used for planning and tracking of various tasks. The Trello board used for planning and project management can be found [here](https://trello.com/b/ZyIY1qj8/term-3-final-assessment-part-a)
+Trello board is used for planning and tracking of various tasks. The Trello board used for planning and project management can be found [here](https://trello.com/b/ZyIY1qj8/homemade-meals)
 
 Below screen prints shows state of tasks in various stages of the project.
 
