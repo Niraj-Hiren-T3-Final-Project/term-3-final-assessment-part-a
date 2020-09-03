@@ -1,23 +1,31 @@
 Homemade Meals
 
 **Table Of Contents**
-- [1. Description of your website](#1-description-of-your-website)
-  - [1.1. Purpose](#11-purpose)
-  - [1.2. Functionality / features](#12-functionality--features)
-    - [1.2.1. User Management](#121-user-management)
-    - [1.2.2. Profile Management](#122-profile-management)
-    - [1.2.3. Order Management](#123-order-management)
-    - [1.2.4. Menu Management](#124-menu-management)
-  - [1.3. Target audience](#13-target-audience)
-  - [1.4. Tech stack	GENERAL](#14-tech-stackgeneral)
-- [2. Dataflow Diagram](#2-dataflow-diagram)
-- [3. Application Architecture Diagram](#3-application-architecture-diagram)
-- [4. User Stories](#4-user-stories)
-- [5. Wireframes](#5-wireframes)
-- [6. Project Management](#6-project-management)
+- [1. App Links](#1-app-links)
+- [2. Description of your website](#2-description-of-your-website)
+  - [2.1. Purpose](#21-purpose)
+  - [2.2. Functionality / features](#22-functionality--features)
+    - [2.2.1. User Management](#221-user-management)
+    - [2.2.2. Profile Management](#222-profile-management)
+    - [2.2.3. Order Management](#223-order-management)
+    - [2.2.4. Menu Management](#224-menu-management)
+  - [2.3. Target audience](#23-target-audience)
+  - [2.4. Tech stack	GENERAL](#24-tech-stackgeneral)
+- [3. Dataflow Diagram](#3-dataflow-diagram)
+- [4. Application Architecture Diagram](#4-application-architecture-diagram)
+- [5. User Stories](#5-user-stories)
+- [6. Wireframes](#6-wireframes)
+- [7. Project Management](#7-project-management)
 
-# 1. Description of your website
-## 1.1. Purpose
+# 1. App Links
+The app is implemented in two parts 
+1. Frontend is implemented using React and hosted on Netlify at https://homemade-meals.netlify.app/
+2. Backend is node.js based express server api interacting with MongoDb Atlas instance on AWS. The backend is hosted on Heroku at https://homemade-meals-server.herokuapp.com/
+
+
+
+# 2. Description of your website
+## 2.1. Purpose
 **What is this App about?**
 
 This app offers food lovers a platform to order healthy, authentic home-cooked food prepared by people who genuinely care about cooking. It allows people to buy fresh home-cooked food prepared by professional or hobbyist cooks using the best ingredients. It also provides users to choose from a variety of cuisines and home chefs.
@@ -38,17 +46,17 @@ We are introducing the fourth way of ordering food i.e ordering home-cooked food
 2. Choose a home-cooked meal and put an order.
 3. Pick up your meal and enjoy fresh, homemade food, and share your experience with us!
 
-## 1.2. Functionality / features
+## 2.2. Functionality / features
 The app provides following functionality and features
 
-### 1.2.1. User Management
+### 2.2.1. User Management
   
   User management functionality provides ability to authenticate and authorize various users of the app. The functionality is implemented through following features
 
   - Register
   - Login
   - Logout
-### 1.2.2. Profile Management
+### 2.2.2. Profile Management
   
   Profile management functionality provides ability to the customers of the store to share contact and other related details in order to communicate with the store admins if required. It also provides store admins to publish the store address, and contact details.
 
@@ -58,7 +66,7 @@ The app provides following functionality and features
   - View customer details
   - Edit store details
   - View Store details
-### 1.2.3. Order Management
+### 2.2.3. Order Management
 
   Order Management functionality provides customers to make, edit and cancel the orders as well as view order details and history. The functionality can be used by store admins to view orders for the day and the customers who made the orders.
 
@@ -69,7 +77,7 @@ The app provides following functionality and features
   - Cancel Order
   - View Orders Made
   - View Orders Received
-### 1.2.4. Menu Management
+### 2.2.4. Menu Management
 
   Menu management functionality provides ablity to customers to view the menu of the day. It can be used by Store admins to create the menu of the day.
 
@@ -80,7 +88,7 @@ The app provides following functionality and features
   - Delete menu of the day
   - View menu of the day
 
-## 1.3. Target audience
+## 2.3. Target audience
 We will generally have three targeted audience group:
 
 **College Students and Young Adults:**
@@ -97,7 +105,7 @@ This group of people are really busy with their work and career. After a long da
 
 Apart from this group, anyone who is passionate about food and would like to taste authentic  home-cooked meal would be our target customer.
 
-## 1.4. Tech stack	GENERAL
+## 2.4. Tech stack	GENERAL
 
 - React.js: For rendering and management of front end of the app.
 - JSX: Used in conjunction with React, for describing and structuring UI of the app
@@ -120,7 +128,7 @@ Apart from this group, anyone who is passionate about food and would like to tas
 - GitHub: To host source code of the app for collaboration and source management using Git.
 - Git: Used for source code management.
 
-# 2. Dataflow Diagram
+# 3. Dataflow Diagram
 ![homemade meals dataflow diagram](docs/dfd/homemade-mels-dfd.svg)
 
 Above diagram depicts various processes, external entities, data stores and the flow of information among them.
@@ -138,9 +146,9 @@ The System works as follows,
 5. Order Pickup
    Customer entity initiates Order Pickup by provide Order Id, the process verifies the Order throgh Verifiy Order process, marks the order as picked up in Orders store, and then Customer picks up the meal.
 
-# 3. Application Architecture Diagram
+# 4. Application Architecture Diagram
 ![Application Architecture Diagram](docs/architectureDiagram/Architecture%20Diagram.png)
-# 4. User Stories
+# 5. User Stories
 There are two main users that will interact with our app. They are the store owner who will be selling the food and the customers who will be buying the food through the app. So the user stories are created thinking about how they would interact with the app and what necessary features and functions are necessary for the smooth operation of the app.
 
 **Store Admin User Stories**
@@ -170,7 +178,7 @@ There are two main users that will interact with our app. They are the store own
 10. As a customer, I want to get order confirmation, so that I can be sure that order has gone through and in case I don’t receive my order I have proof of purchase.
 
 
-# 5. Wireframes
+# 6. Wireframes
 1. **Customer Views**
    1. **Home**
       1. **Signed Out**
@@ -205,7 +213,7 @@ There are two main users that will interact with our app. They are the store own
 3. **Common**
    1. **Login**
       ![](docs/wireframes/Login.png)
-# 6. Project Management
+# 7. Project Management
 
 The project will be developed using agile methodology. There are total four sprints planned, each of them being one week in duration. The first sprint is dedicated to inception, planning, and documentation. Remaining three sprints are dedicated to build in that one by one all the planned features of the project will be developed and deployed.
 
